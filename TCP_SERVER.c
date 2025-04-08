@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<sys/socket.h>
-#include<arpa/inet.h
+#include<arpa/inet.h>
 int main(void){
     int sockid, client_sock, client_size;
     struct sockaddr_in server,client;
